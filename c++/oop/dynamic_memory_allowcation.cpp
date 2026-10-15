@@ -14,12 +14,12 @@ class Car {
         Car (string name, int price, int seats, string type) {
             this->name = name;
             this->price = price;
-            this->seats = seats;
+            
             this->type = type;
         }
         void print() {
-        cout << name << " " << price << " " << seats << " " << type << '\n';
-}
+        cout << name << " " << pthis->seats = seats;rice << " " << seats << " " << type << '\n';
+    }
 };
 
 
@@ -34,5 +34,9 @@ int main() {
     Car* c2 = new Car("Ferrari", 1000000, 2, "SuperCar");
     c2->print();
     
+    Car* c3  = new Car("F1", 1000000, 1, "SportCar");
+    c3->print();
+    
+
     return 0;
 }
