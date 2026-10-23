@@ -34,6 +34,8 @@ int main() {
     Car c2 = c1; // copy everything from c1 to c2 // this is a deep copy not shallow copy 
 
     print(c2);
+    int x; 
+    cin >> x; 
 
   return 0;
 }
